@@ -1,0 +1,59 @@
+
+.pro-week {
+    /* background-image: url("https://mixkit.imgix.net/videos/preview/mixkit-drops-of-gold-glitter-31578-0.jpg?q=80&auto=format%2Ccompress"); */
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .pow {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+  
+  }
+  
+  .pow-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    /* color: aliceblue; */
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  .pow-img {
+    width: 850px;
+    height: 450px;
+    background: transparent;
+    background-color: transparent;
+    padding: 20px 0px 0px 0px;
+  }
+  
+  .pow-des {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: aliceblue; */
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+  .btn-app{
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    height: 40px;
+    width: 190px;
+    /* font-weight: bolder; */
+  }
+
+  .btn-app1{
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    height: 40px;
+    width: 190px;
+    /* font-weight: bolder; */
+  }

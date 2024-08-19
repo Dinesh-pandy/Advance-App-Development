@@ -1,0 +1,101 @@
+.profile-container-stu {
+  max-width: 600px;
+  margin:  auto;
+  padding: 20px;
+  border: 1px solid #dfef03;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f7f7;
+}
+
+.profile-photo {
+  margin-left: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Creates a circular shape for the photo */
+  object-fit: cover; /* Ensures the photo covers the entire container */
+  margin-bottom: 20px;
+}
+
+.profile-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-details {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-edit {
+  margin-right: 110px;
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+.btn-save {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+.btn-cancel {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  /* margin-left: 250px; */
+}
+
+.btn-edit:hover,
+.btn-save:hover,
+.btn-cancel:hover {
+  opacity: 0.8;
+}
+
+.profile-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.profile-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.profile-container::-webkit-scrollbar-thumb {
+  background-color: #3498db;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+  .profile-container {
+    max-width: 100%;
+  }
+}
+/* .main1{
+  background-image: url("https://wallpapers.com/images/high/profile-picture-background-fh30e29lbdsfxuip.webp");
+  width: 100%;
+  height: 100%;
+} */

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .image-right {
+    width: 40%;
+  }
+  
+  .content-right {
+    font-size:larger ;
+    width: 60%;
+  }
+  
+  .img-content{
+    height:300px;
+    width:350px;
+  }
+  .query{
+    padding-bottom: 30px;
+  }
+  

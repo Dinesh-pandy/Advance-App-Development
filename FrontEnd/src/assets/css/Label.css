@@ -1,0 +1,37 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    margin-top: 100px;
+  }
+  
+  .profile {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .profile-label {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .profile-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  

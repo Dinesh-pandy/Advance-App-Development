@@ -1,0 +1,19 @@
+.image-slider {
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    position: relative;
+  }
+  
+  .image-slider img {
+    height: 400px;
+    width:400px;
+    flex: 1;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .image-slider img.active {
+    opacity: 1;
+  }
+  

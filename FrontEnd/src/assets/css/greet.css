@@ -1,0 +1,24 @@
+.thank-you-message {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+  }
+  
+  .thank-you-message h1 {
+    color: #333;
+  }
+  
+  .thank-you-message p {
+    color: #666;
+    font-size: 18px;
+  }
+  
+  .tick-icon {
+    color: green;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  

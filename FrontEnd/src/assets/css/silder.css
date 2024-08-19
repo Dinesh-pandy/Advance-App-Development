@@ -1,0 +1,15 @@
+/* silder.css */
+
+/* Slider container */
+.slider-container {
+    width: 70%; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Image styling */
+  .slider-container img {
+    height:580px;
+    width: 2090px;
+    display:flex;
+  }
+  

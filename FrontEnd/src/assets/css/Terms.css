@@ -1,0 +1,38 @@
+.terms-of-service-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+  
+  .terms-content {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .terms-content p {
+    margin-bottom: 20px;
+  }
+  
+  .terms-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .terms-content h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  .top-head{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .terms-of-service-container {
+      width: 90%;
+      padding: 30px 0;
+    }
+  }
+  
